@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./Foto-4-1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin: 0;
+}
+
+
+.label{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#sign {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+#sign span {
+    display: inline-block;
+    background: rgba(3, 23, 171, 0.7);
+    padding: 20px 40px;
+    border-radius: 10px;
+    animation: swing 3s infinite;
+}
+
+@keyframes swing {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.763);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#countdown div {
+    background: #ff3030a0;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2em;
+    min-width: 80px;
+}
+
+#countdown .label {
+    margin-top: 10px;
+    font-size: 0.5em;
+    color: #ffffff;
+}
+
+#music{
+    margin-top: 20px;
+}
